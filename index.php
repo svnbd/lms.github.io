@@ -10,10 +10,10 @@ if(isset($_POST['click'])){
   $publication = $_POST['publication'];
 
 
-  $query = "select * from book_info where isbn ='$isbn'"; //if already exists email
-  $run = mysqli_query($db, $query); // execute query
-  $row = mysqli_num_rows($run); //kon row er moddhe exists mail ache
-  if ($row > 0) { //if email is exists or, 0 theke boro..j kono ekta mail peye gele exists
+  $query = "select * from book_info where isbn ='$isbn'";
+  $run = mysqli_query($db, $query); 
+  $row = mysqli_num_rows($run); 
+  if ($row > 0) { 
     header("location:index.php?error=This $isbn is taken by another");
   } 
   elseif($isbn ==''){
