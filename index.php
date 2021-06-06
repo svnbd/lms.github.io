@@ -107,7 +107,7 @@ if(isset($_POST['click'])){
         <input type="text" name="publication" class="form-control" maxlength="25" placeholder="Enter Publication">
       </div>
       <input type="submit" name="click" class="btn btn-info" value="Submit">
-      <input type="reset"  class="btn btn-warning" value="Reset">
+      <input type="reset" class="btn btn-warning" value="Reset">
       <hr>
       <a href="SearchBooks.php"> To search for the Book information click here </a>
     </form>
