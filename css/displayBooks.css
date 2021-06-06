@@ -1,0 +1,10 @@
+.displayBooks {
+  width: 750px;
+  border-radius: 10px;
+  background: #fff;
+  padding: 50px;
+  padding-bottom: 5px;
+  margin: 5% auto 0;
+  text-align: center;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.3);
+}
